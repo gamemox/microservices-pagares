@@ -15,6 +15,6 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/pagaresValidos/{rut}', ['uses'=>'PagaresController@getPagaresValidos']);
+$router->get('/pagaresvalidos/{rut}', ['uses'=>'PagaresController@getPagaresValidos']);
 
-$router->get('/pagaresAll/{rut}', ['uses'=>'PagaresController@getPagaresAll']);
+$router->get('/pagaresall/{rut}', ['uses'=>'PagaresController@getPagaresAll']);
